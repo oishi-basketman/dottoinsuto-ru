@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf=8">
+  <title>my page</title>
+  <script src="https://kit.fontawesome.com/21b835bd2b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="fontawesome.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+  <style>
+    .fa-link ::before{
+    content: "\f015";
+    font-weight: 400;
+    font-family: "Font Awesome 5 Free";
+    color: #313131;
+    font-size: 125%;
+    padding: 0 3px;
+  }
+  </style>
+</head>
+<body>
+  <ul class="fa-ul">
+    <li><span class="fa-li"><i class="fas fa-home"></i></span>Home</li>
+    <li><span class="fa-li"><i class="fas fa-info"></i></span>About</li>
+    <li><span class="fa-li"><i class="fas fa-question"></i></span>Help</li>
+  </ul>
+<!-- kaiten -->
+<hr>
+  <i class="fas fa-spinner fa-spin fa-3x"></i>
+  <i class="fas fa-spinner fa-pulse fa-3x"></i>
+
+<!-- transform scaling -->
+<hr>
+<i class="fas fa-arrow-up"></i>
+<i class="fas fa-arrow-up" data-fa-transform="grow-16"></i>
+<i class="fas fa-arrow-up" transform="shrink-8"></i>
+<i class="fas fa-magic" ></i>
+
+<!-- positioning -->
+<hr>
+<i class="fas fa-arrow-up"></i>
+<i class="fas fa-arrow-up" data-fa-transform="up-8"></i>
+<i class="fas fa-arrow-up" data-fa-transform="right-8"></i>
+<!-- rotating -->
+<hr>
+<i class="fas fa-arrow-up fa-rotate-90" ></i>
+<i class="fas fa-arrow-up fa-rotate-180"></i>
+<i class="fas fa-arrow-up fa-rotate-270"></i>
+<!-- masking -->
+<hr>
+<i class="fa fa-lock"></i>
+<i class="fa fa-file"></i>
+<hr>
+<span class="fa-stack fa-2x">
+  <i class="fas fa-file fa-stack-2x"></i>
+  <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+</span>
+
+<span class="fa-stack fa-2x">
+  <i class="fas fa-square fa-stack-2x"></i>
+  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+</span>
+
+<hr>
+
+<div class="fa-4x">
+  <span class="fa-layers fa-fw">
+    <i class="fas fa-file"></i>
+    <i class="fas fa-lock " data-fa-transform="shrink-10 down-1.2" style="color:aqua"></i>
+  </span>
+</div>
+
+<hr>
+
+<div class="fa-4x">
+  <span class="fa-layers fa-fw">
+    <i class="fas fa-file"></i>
+    <span class="fas fa-layers-text " data-fa-transform="shrink-12 down-1.2" style="color:tomato; font-weight: bold;">PDF</i>
+  </span>
+</div>
+
+<hr>
+
+<a href="https://soundorbis.com/fa-pseudo-elements/#font_awesomecss" class="fa-link">Font AwesomeをCSS疑似要素でアイコン設置する方法</a>
+
+</body>
+</html>
